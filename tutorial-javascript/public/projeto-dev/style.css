@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#principal {
+  width: 1024px;
+  margin: 20px auto;
+}
+
+header-top {
+  height: 50px;
+  background-color: white;
+  position: relative;
+}
+
+header h1 {
+  font-size: 40px;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+}
+
+header-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(2, 2, 2);
+  float: right;
+  padding: 10px;
+  letter-spacing: 1px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 20px;
+}
+li a {
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+
+li a:visited {
+  color: white;
+}
+
+li a:link {
+  color: white;
+}
+
+li a:hover {
+  font-weight: bold;
+}
+
+.bg {
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  box-shadow: 0px 9px #000000;
+  margin-bottom: 50px;
+}
+
+.portfolio {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 56px;
+}
+
+.portfolio p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.gallery {
+  padding: 0 100px 50px 100px;
+  overflow: auto;
+}
+
+.gallery-card {
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.card-1,
+.card-2 {
+  margin-right: 2%;
+}
+
+.gallery-card img {
+  border-radius: 15px;
+}
+
+.galery-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.galery-text {
+  font-style: italic;
+}
+
+.about {
+  background-image: linear-gradient(-35deg, #ff6600, #ffbb00);
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 9px #000000;
+  color: white;
+  text-shadow: 2px 2px 5px #ff6600;
+}
+
+.about h2 {
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.about p {
+  padding: 90px 20px 0px 20px;
+  margin-top: 30px;
+  position: relative;
+  bottom: 100px;
+  font-size: 20px;
+  width: 70%;
+}
+
+#contact {
+    padding: 80px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#maps {
+    text-align: center;
+    filter: drop-shadow(10px 10px 4px #000000);
+}
+
+footer {
+    text-align: center;
+}

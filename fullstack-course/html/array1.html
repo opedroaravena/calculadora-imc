@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Fun With Arrays</title>
+<script>
+
+/* Defining Table
+ * Input: no user input
+ * Processing: Test the addEnds and getMiddle functions by calling them.
+ * Output: The values returned from the addEnds and getMiddle functions.
+ */
+function test() {
+    let list1 = [ 17, 8, 9, 5, 20 ];
+    let list2 = [ 12, 4, 8, 15, 17, 5, 20, 11 ];
+
+    // Test the addEnds function by calling it two times.
+    let sum1 = addEnds(list1);
+    let sum2 = addEnds(list2);
+
+    // Test the getMiddle function by calling it two times.
+    let mid1 = getMiddle(list1);
+    let mid2 = getMiddle(list2);
+
+    // Build a string to display to the user.
+    let output =
+            sum1 + '<br>' +
+            sum2 + '<br>' +
+            mid1 + '<br>' +
+            mid2;
+
+    // Display the output string for the user to see.
+    document.getElementById('output').innerHTML = output;
+}
+
+/* Defining Table
+ * Input: an array
+ * Processing: adds the two end values together
+ * Output: The value of the sum of the two ends.
+ */
+function addEnds(list) {
+    let first = list[0];
+    let end = list[list.length -1];
+
+    let sum = first + end;
+    return sum;
+    
+}
+
+/* Defining Table
+ * Input: an array
+ * Processing: Finds the value of the middle of the array, if there are an even number 
+ * it will return the average
+ * Output: The middle value of the array (or average of the two middle values if even number of elements).
+ */
+function getMiddle(list){
+   let len = list.length;
+
+   if (len % 2 == 0){
+       let s1 = list[len/2];
+       let s2 = list[len/2 - 1];
+       let average = (s1 + s2) / 2;
+       return average;
+   }
+   else {
+       let mid = Math.floor(len/2);
+       return list[mid];
+   }
+
+}
+
+</script>
+</head>
+
+<body>
+<h1> Fun With Arrays! </h1>
+<button type="button" onclick="test()">Test</button>
+<div id="output"></div>
+</body>
+</html>

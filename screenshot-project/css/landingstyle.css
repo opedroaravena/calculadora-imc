@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+header {
+    color: white;
+    background-color: rgb(51, 139, 255);
+    
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 8px #252525;
+    padding: 20px;
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+section {
+    padding: 90px;
+    background-image: url('https://images.unsplash.com/photo-1474367658825-e5858839e99d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 300px;
+    background-color: #e2e2e278;
+    padding: 20px;
+    float: right;
+    border-radius: 15px;
+}
+
+input, select {
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 45px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+}
+
+input[type="submit"] {
+    background-color: rgb(51, 139, 255);
+    color: white;
+}
+
+/*footer {
+    background-color: rgb(63, 63, 63);
+    padding: 55px;
+    text-align: center;
+}
+
+
+footer img {
+    width: 160px;
+    border-radius: 10px;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h2 {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 30px;
+}*/
+
+.picture {
+    width: 160px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(63, 63, 63);
+    padding: 55px;
+    text-align: center;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h2 {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 30px;
+}

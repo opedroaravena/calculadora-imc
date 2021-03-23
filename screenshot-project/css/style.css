@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    background-color: rgb(41, 41, 41);
+}
+
+.container {
+    max-width: 70%;
+    margin: auto;
+}
+
+header {
+     text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+section {
+    padding: 20px;
+    background-image: url("/assets/people.jpg");
+    
+    background-size: auto auto;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 250px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+input, select {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+}
+
+.picture {
+    width: 160px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(63, 63, 63);
+    padding: 55px;
+    text-align: center;
+}
+
+.description {
+    color: white;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.description p, .description h2 {
+    margin-bottom: 20px;
+}
+
+.description h2 {
+    font-size: 30px;
+}
